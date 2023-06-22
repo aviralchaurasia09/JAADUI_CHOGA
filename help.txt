@@ -1,0 +1,96 @@
+Invisible Cloak
+---------------------------------------------------------------------
+Version - 1.0
+Januray 09th, 2021
+---------------------------------------------------------------------
+Written By - Aviral Chaurasia
+E-Mail - aviralchaurasiia09@gmail.com
+---------------------------------------------------------------------
+
+Main Script : 
+---------------------------------------------------------------------
+main.exe
+
+Options :
+---------------------------------------------------------------------
+
+[1] Webcam Or Stream Webcam
+
+	[1.1] Choose Webcam :
+			if you want to connect with System Webcam (Inbuilt Or Connected Directly To System)
+			Webcam ID : 0 for your inbuilt webcam in system and goes like 1,2,3.... according to webcam connected 
+			(if you have 1 webcam connected extrenally to your system then Webcam ID will be 1)
+
+	[1.2] Choose Stream Webcam :
+			To connect to CCTV, Android Camera or to any other camera having IP Address
+			
+			[1.2.1] IP Adrress : IP Address Of Your Camera(Example : 192.168.43.1)
+			[1.2.2] Port : Port Of Connection(Example : 1111)
+			[1.2.3] Parameter : is the address after IP Adrress and port if there is no such things just leave it blank
+				(Example : Address Is 192.168.43.1:8080/video, So The Parameter will be '/video' without quotes)
+			[1.2.4] Username : Username to login To Camera (Leave Blank if Not Any)
+			[1.2.5] Password : Password to login To Camera (Leave Blank If Not Any)
+					(Username And Password Are Not Stored)
+
+[2] Refresh : To Refresh the page to show valid options(always refresh when you change the source)
+
+[3] Connect : To Connect to Camera
+
+	[3.1] Change Background : To Change The background (This Background is used to create the invisibility)
+	
+	[3.2] Show Background : To Show Current using Background
+
+	[3.3] Calibrate : To Set HSV Values 
+			(Keep In Mind : The White Part In calibrating window will become invisible)
+	
+	[3.4] Start Magic : To Start The Magic (That Make You Invisible)
+			Check "Record The Output" To Record The Magic It Save In Your Videos Folder 
+  			(Likely To Be : C:->usesr->username->Videos->Invisible Cloak)
+	
+	[3.5] Stop Magic : To Stop Magic
+
+[4] Disconnect : To Disconnect from current Source
+
+[5] Exit : To Exit The Program
+
+
+How To Set HSV Values : 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[1] Choose The Blanket as of that colour so it will not match to any other color of items in your room
+[2] Click Calibrate Button
+[3] Slowly Slide L_HUE Slider and observe the calibrating window some part will start to become black, make sure the blanket you choose should remain white 
+[4] Now Slowly Decrease U_HUE Slider and observe the calibrating window some part will start to become black, make sure the blanket you choose should remain white
+[5] Now Slide Other Slider and make sure in calibrating window all thing should appear black but your blanket remain white
+[6] Press esc button only to exit the Calibrating Window, if press cross button on Window it will not store the values so only press esc button only 
+
+
+Save Locations Of Video : 
+---------------------------------------------------------------------
+In Users Videos Folder (Likely To Be : C:->usesr->username->Videos->Invisible Cloak)
+
+
+How To Use Your SmartPhone Camera:
+---------------------------------------------------------------------
+
+[1] Download IP Webcam In Your Phone
+[2] Make Sure Your Phone and your system are on same system
+[3] Open IP Webcam App
+[4] Now Click Start Server, The IP Address And Port Will Appear On Your Phone Screen, Note Them
+[5] Run Invisible Cloak Application
+[6] Choose Stream WebCam
+[7] Type Your IP Address (Only IP Address, Example "https://192.168.43.1:8080", IP Address Is 192.168.43.1, put only this)
+[8] Enter Port (Example "https://192.168.43.1:8080", In This Case PORT is 8080)
+[9] Parameter : By Default In IP Webcam App Parameter is /video
+[10] Username And Password : By Default No User And Password is set so left them blank
+[11] Click Connect
+	
+Example : In My IP Webcam After Starting Server It Show's Like : https://192.168.43.1:8080/
+						So In Invisible Clock Window i will Enter : 
+						IP Address : 192.168.43.1		Port : 8080	Parameter : /video
+						These Are The Default Settings
+					
+---------------------------------------------------------------------
+Thank you for supporting my efforts
+Please give me your valuable feedback on - aviralchaurasia09@gmail.com
+If you face any error in program feel free to mail me, i will try my best to solve it
